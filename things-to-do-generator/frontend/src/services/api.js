@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api/activities"; // Match your backend port
+const API_URL = "https://todogenerator.onrender.com"; // Match your backend port
 
 export const fetchActivities = async (category = "") => {
   try {
